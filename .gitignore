@@ -1,0 +1,11 @@
+node_modules
+.expo/*
+npm-debug.*
+*.jks
+*.p12
+*.key
+*.mobileprovision
+.jest/
+.idea/
+yarn-error.log
+secrets.ts

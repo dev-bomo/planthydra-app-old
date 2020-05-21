@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Meridia",
+    "description": "Meridia IoT plant growing systems companion app",
+    "slug": "Meridia",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "0.1.6",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#00523c"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.meridiatech.arbour"
+    },
+    "android": {
+      "package": "meridia.android"
+    },
+    "extra": {
+      "darkskyBaseUrl": "https://api.darksky.net/forecast/",
+      "facebookBaseUrl": "https://graph.facebook.com/me",
+      "googleGeocodeUrl": "https://maps.googleapis.com/maps/api/geocode/json"
+    }
+  }
+}
