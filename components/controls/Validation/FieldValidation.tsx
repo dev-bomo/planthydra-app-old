@@ -2,7 +2,6 @@ import React, { ReactElement } from "react";
 import { View, Text, StyleSheet } from "react-native";
 import * as validate from "validate.js";
 import Theme from "../../../assets/theme/theme";
-import { isThisISOWeek } from "date-fns";
 
 export interface FieldValidationProps {
     type: string;
